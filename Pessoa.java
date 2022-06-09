@@ -2,12 +2,7 @@ public class Pessoa{
    private String sexo;
    private String nome;
    private int idade;
-
-   public Pessoa(String sexo, String nome, int idade){
-       setSexo(sexo);
-       setNome(nome);
-       setIdade(idade);
-   }   
+  
 
    public void setSexo(String sexo){
        this.sexo = sexo;
