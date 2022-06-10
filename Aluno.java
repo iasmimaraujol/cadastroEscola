@@ -1,6 +1,7 @@
 public class Aluno extends Pessoa{
     private int nota;
     private String materia;
+    
 
     public void setNota(int nota){
         this.nota = nota;
@@ -13,6 +14,10 @@ public class Aluno extends Pessoa{
     }
     public String getMateria(){
         return this.materia;
+    }
+    @Override
+    public String toString(){
+        return (getNome() + " " + getIdade()+ " " + getSexo()+ " " +getMateria() + " ");
     }
 
 }

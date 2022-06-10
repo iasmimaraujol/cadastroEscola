@@ -1,8 +1,8 @@
-public class Pessoa{
+public abstract class Pessoa{
    private String sexo;
    private String nome;
    private int idade;
-  
+
 
    public void setSexo(String sexo){
        this.sexo = sexo;
